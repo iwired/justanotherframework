@@ -18,10 +18,4 @@
   </li>
 </ul>
 
-<ul class="items">
-  <li *ngFor="let item of items"
-    [class.selected]="item === selectedItem"
-    (click)="onSelect(item)">
-    <span class="badge">{{item.id}}</span> {{item.name}}
-  </li>
-</ul>
+
